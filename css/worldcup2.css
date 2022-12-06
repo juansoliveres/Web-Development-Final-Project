@@ -38,8 +38,13 @@ h1{
 	text-decoration: underline;
 }
 
+.skip {
+	background-color: whitesmoke;
+	text-decoration: none;
+}
+
 header{
-	display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -305,6 +310,7 @@ video{
 	background-image: url('https://i.pinimg.com/originals/a8/48/9f/a8489f98a014f51fd77a3e9b19065204.jpg');
 	background-size: 400px 550px;
 	height: 430px;
+	background-color: black;
 }
 
 .cont3 img{
@@ -373,6 +379,7 @@ video{
 	background-image: url('https://www.dailynews.com/wp-content/uploads/migration/2015/201505/SPORTS_150529459_AR_0_ZGVSHZNYUOJY.jpg?w=1200');
 	background-size: 400px 500px;
 	height: 500px;
+	background-color: black;
 }
 
 .cont9 img{
@@ -665,4 +672,10 @@ video{
 		height: auto;
 	}
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .container{
+    animation: none;
+  }
 }
