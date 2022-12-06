@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+	background-color: #fbf7ea;
+	margin: 0px;
+}
+
+body p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+
+body h2{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	text-align: center;
+    font-size: 55px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0%;
+    font-variant: normal;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title{
+	color: #ff4b00;
+}
+
+.active{
+	text-decoration: underline;
+}
+
+header{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+	text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border: solid 1px grey;
+}
+
+nav li{
+	text-decoration: none;
+	display:block;
+	padding-right:120px;
+	padding-left: 120px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Bebas Neue';
+	font-size: 20px;
+}
+
+nav a:hover{
+	color: #ff4b00;
+	padding: 17px 17px;
+	background-color: #80808066;
+}
+
+/*START OF STYLING FOR MAIN OF PAGE 1*/
+
+/*STYLING THE VIDEO */
+
+.section1{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.section1 h2{
+    position: relative;
+    text-align: left;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color: #ffffffd1;
+    font-family: 'Bebas Neue';
+    left: 0px;
+    bottom: 428px;
+    display: none;
+}
+
+.section1 h3{
+    position: absolute;
+    text-align: left;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    color: #ffffffd1;
+    font-family: 'Bebas Neue';
+    left: 0px;
+    bottom: 0px;
+    display: none;
+}
+
+.video-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.info {
+    position:relative; 
+    width: 90%;  
+    background: whitesmoke; 
+    border: 1px solid grey;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+    overflow: auto;
+}
+
+
+.info img{
+	width: 100%;
+	height: 300px;
+	margin: 0px;
+}
+
+.data h3{
+	color: #ff4b00;
+	font-family: 'Bebas Neue';
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 0px
+}
+
+.data p{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.data2 h3{
+	color: #ff4b00;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.data2{
+	display: grid;
+    justify-items: center;
+}
+
+.info h4{
+	font-family: 'Bebas Neue';
+	color: black;
+	font-size: 20px;
+	text-align: center;
+    margin-top: 13px;
+}
+
+.info p{
+	position: absolute;
+    margin-top: -15px;
+    font-size: 13px;
+}
+
+/*PAGE 2: HISTORY */
+
+#maradona{
+	height: auto;
+}
+
+.learninghistory h2{
+	color: #ff4b00;
+	font-family: 'Bebas Neue';
+	text-align: center;
+	font-size: 35px;
+}
+
+.learninghistory h3{
+	font-family: 'Bebas Neue';
+	text-align: center;
+	font-size: 25px;
+}
+
+.learninghistory p{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#champions_title {
+	color: #ff4b00;
+	font-family: "Bebas Neue", sans-serif;
+	text-align: center;
+	font-size: 35px;
+}
+
+.champions{
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+}
+
+.container{
+	border: 3px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-color: #ffa986;
+}
+
+.container img{
+	border-radius: 20px 20px 0px 0px;
+}
+
+.container img {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.container:hover img {
+    transform: scale(1.2);
+}
+
+.text-block{
+	text-align: center;
+}
+
+/*PAGE 3: SOCIAL CONTROVERSY*/
+
+.socialcontroversy {
+	margin-left: 0px;
+}
+
+.intro-to-social{
+	display: inline-block;
+}
+
+#socialtitle, #socialtitle2{
+	color: #ff4b00;
+	font-family: 'Bebas Neue';
+	text-align: center;
+	font-size: 35px;
+	margin-top: 40px;
+}
+
+.intro-to-social p{
+	text-align: center;
+	margin-top: 0px;
+	margin: 20px;
+}
+
+.intro-to-social img{
+	display: none;
+}
+
+.socialflex{
+	display: flex;
+	flex-direction: row;
+	flex-basis: 20%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.soc_container{
+	border: 1px black solid;
+	margin: 20px;
+	width: 400px;
+	border-radius: 5px;
+	background-color: #f3c8a7;
+}
+
+.soc_container img{
+	border-radius: 5px;
+}
+
+.cont3{
+	background-image: url('https://i.pinimg.com/originals/a8/48/9f/a8489f98a014f51fd77a3e9b19065204.jpg');
+	background-size: 400px 550px;
+	height: 430px;
+}
+
+.cont3 img{
+	z-index: 1;
+}
+
+.cont3 h2{
+	position: relative;
+	top: 0px;
+	color: whitesmoke;
+	font-weight: bold;
+	width: 25rem;
+	margin-left: 10px;
+}
+
+.cont3 button{
+	position: relative;
+	bottom: 20px;
+	background-color: #5cccff;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    opacity: 0.85;
+}
+
+.cont5{
+	background-color: orange;
+}
+
+.cont5 h2{
+	font-size: 6em;
+	color: black;
+	text-align: center;
+	font-family: 'Bebas Neue';
+}
+
+.cont5 p{
+	position: relative;
+	text-align: center;
+	font-weight: bolder;
+	bottom: 50px;
+}
+
+
+.cont7{
+	background-color: orange;
+}
+
+.cont7 h2{
+	font-size: 6em;
+	color: black;
+	text-align: center;
+	font-family: 'Bebas Neue';
+}
+
+.cont7 p{
+	position: relative;
+	text-align: center;
+	font-weight: 900;
+	bottom: 50px;
+}
+
+.cont9{
+	height: 500px;
+	background-image: url('https://www.dailynews.com/wp-content/uploads/migration/2015/201505/SPORTS_150529459_AR_0_ZGVSHZNYUOJY.jpg?w=1200');
+	background-size: 400px 500px;
+	height: 500px;
+}
+
+.cont9 img{
+	z-index: 1;
+}
+
+.cont9 h2{
+	color: whitesmoke;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.cont9 button{
+	position: relative;
+	top: -15px;
+	background-color: #5cccff;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    opacity: 0.85;
+}
+
+@media screen and (min-width: 750px){
+
+	.section1{
+		height: 400px
+	}
+
+	.section1 h2{
+		left: 0px;
+    	bottom: 150px;
+	}
+
+	.section1 h3 {
+		left: 0px;
+    	bottom: 0px;
+	}
+
+	.info{
+		height: 600px;
+	}
+
+	.info img {
+	    width: 100%;
+	    height: 400px;
+	    margin: 0px;
+	}
+
+	.champions{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+	}
+
+	.container{
+		border: 3px solid black;
+	    width: 80%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 20px;
+		background-color: #ffa986;
+	}
+
+	.container img{
+		width: 100%;
+	}
+
+	#argentina{
+		position: relative;
+		left: 200px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.intro-to-social p {
+	    text-align: center;
+	    margin-top: 0px;
+	    width: auto;
+	}
+
+}
+
+@media screen and (min-width: 1200px){
+
+	nav{
+		text-decoration: none;
+	    text-align: center;
+	    display: inline-block;
+	    width: 100%;
+	    border: solid 1px grey;
+	}
+
+	nav li{
+	  text-decoration: none;
+	  display:inline;
+	  padding-right:120px;
+	  padding-left: 120px;
+	}
+
+	nav a{
+		text-decoration: none;
+		color: black;
+		font-family: 'Bebas Neue';
+		font-size: 20px;
+	}
+
+	nav a:hover{
+		color: #ff4b00;
+		padding: 17px 17px;
+		background-color: #80808066;
+	}
+
+	.section1{
+		position: relative;
+		width: 100%;
+		height: 600px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.section1 h2{
+		display: block;
+		position: absolute;
+		text-align: left;
+		font-size: 3rem;
+		padding: 20px;
+		margin: 15px;
+		z-index: 1;
+		color: #ffffffd1;
+		font-family: 'Bebas Neue';
+		left: 40px;
+		bottom: 70px;
+	}
+
+	.section1 h3{
+		display: block;
+		position: absolute;
+		text-align: left;
+		font-size: 3rem;
+		padding: 20px;
+		margin: 15px;
+		z-index: 1;
+		color: #ffffffd1;
+		font-family: 'Bebas Neue';
+		left: 40px;
+		bottom: 10px;
+	}
+
+	.info {
+	    position:relative; 
+	    width: 600px;  
+	    background: whitesmoke; 
+	    border: 1px solid grey;
+	    margin-bottom: 40px;
+	    margin-top: 20px;
+	    height: 300px;
+	}
+
+	.info img{
+		width: 400px;
+		height: 300px;
+		margin: 0px;
+	/*	border-radius: 10% 10% 0% 0%;*/
+	}
+
+	.data h3{
+		color: #ff4b00;
+	/*	font-family: sans-serif;*/
+		font-family: 'Bebas Neue';
+		text-align: center;
+		font-size: 35px;
+		margin-bottom: 0px
+	}
+
+	.data p{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.data2{
+		display: grid;
+	    justify-items: center;
+	}
+
+	#stadiums, #people, #jobs {
+		position: absolute;
+	    width: 165px;
+	    right: 15px;
+	    top: 0;
+	    bottom: 0;
+	    color: black;
+	    text-align: left;
+	}
+
+	.info h4{
+		font-family: 'Bebas Neue';
+		color: black;
+		font-size: 20px;
+		text-align: center;
+	    margin-top: 13px;
+	}
+
+	.info p{
+		position: absolute;
+	    margin-top: -15px;
+	    font-size: 13px;
+	}
+
+	/*	PAGE 2: HISTORY*/
+
+	.champions{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr ;
+		justify-items: center;
+	}
+
+	.container{
+		border: 3px solid black;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 20px;
+		background-color: #ffa986;
+	}
+
+	.container img{
+		border-radius: 20px 20px 0px 0px;
+	}
+
+	.container img {
+	    transition: all 0.3s;
+	    transform: scale(1);
+	}
+
+	.container:hover img {
+	    transform: scale(1.1);
+	}
+
+	.text-block{
+		text-align: center;
+	}
+
+	#argentina{
+		position: inherit;
+	}
+
+	/*	PAGE 3: SOCIAL CONTROVERSY */
+
+	.socialcontroversy {
+		margin-left: 30px;
+	}
+
+	.intro-to-social{
+		display: inline-block;
+		height: 200px;;
+	}
+
+	#socialtitle, #socialtitle2{
+		color: #ff4b00;
+		font-family: 'Bebas Neue';
+		text-align: left;
+		font-size: 35px;
+		margin-top: 40px;
+		margin-left: 20px;
+	}
+
+	.intro-to-social p{
+		text-align: left;
+		width: 60em;
+		margin-top: 0px;
+		width: 60%;
+	}
+
+	.intro-to-social img{
+		display: block;
+	    position: relative;
+	    width: 30%;
+	    left: 900px;
+	    bottom: 300px;
+	    margin-right: 10px
+	}
+
+	.socialflex{
+		justify-content: flex-start;
+	}
+
+	.cont3{
+		height: auto;
+	}
+
+}
