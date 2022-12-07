@@ -39,8 +39,17 @@ h1{
 }
 
 .skip {
-	background-color: whitesmoke;
-	text-decoration: none;
+  display: block;
+  position: fixed;
+  background: whitesmoke;
+  padding: 0.5rem;
+  top: -100%;
+  left: -100%;
+}
+
+.skip:focus {
+  top: 0;
+  left: 0;
 }
 
 header{
